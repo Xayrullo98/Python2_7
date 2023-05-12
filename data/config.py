@@ -10,8 +10,8 @@
 # IP = env.str("ip")  # Xosting ip manzili
 
 import os
-BOT_TOKEN = str(os.path.join("BOT_TOKEN"))
-ADMINS = list(os.path.join("ADMINS"))
-IP = str(os.path.join("ip"))
+BOT_TOKEN = str(os.environ.get("BOT_TOKEN"))
+ADMINS = list(os.environ.get("ADMINS"))
+IP = str(os.environ.get("ip"))
 
 kanallar = ['@wwwww211','@kanal11232']
